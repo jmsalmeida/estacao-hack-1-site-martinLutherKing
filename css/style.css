@@ -1,4 +1,4 @@
-/* classes auxiliares */
+
 *{
 	margin: 0;
 	padding: 0;
@@ -8,6 +8,7 @@ section {
 	padding: 50px 0;
 }
 
+/* classes auxiliares */
 .container{
 	max-width: 1280px;
 	margin: 0 auto;
@@ -16,6 +17,13 @@ section {
 
 .center{
     text-align: center
+}
+
+.title {
+	font-size: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 /* header */
@@ -45,7 +53,7 @@ section {
 
 /* section main */
 
-#main-bg {
+section#main-bg {
 	background-image: url("../img/main-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -68,14 +76,13 @@ section {
 	line-height: 50px;
 }
 
-/* Historia */
+/* Section history */
 
 .history-right {
 	display: flex;
 	justify-content: flex-end;
 	padding: 100px 0;
 }
-
 
 .history-left {
 	display: flex;
@@ -84,9 +91,68 @@ section {
 .circle-img {
 	width: 200px;
 	height: 200px;
+	border-radius: 50%;
 }
 
 .p-history {
 	padding: 80px 90px 0 90px;	
 	text-align: justify;
 }
+
+/* section video */
+
+section#video {
+	color: white;
+	background-color: black;
+}
+
+/* section books  */
+
+.flex-books {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.single-book img{
+	width: 200px;
+	height: 300px;
+}
+
+/* Footer */
+footer#footer {
+	padding: 100px 0;
+	background-color: brown;
+}
+.flex-footer {
+	display: flex;
+}
+
+.about-martin {
+	display: flex;
+}
+
+.about-martin img {
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	
+}
+
+.about-martin p {
+	text-align: left;
+	margin: 30px 300px 0 20px;
+	padding: 0 30px;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 150px;
+}
+
+.social-icons img {
+	width: 30px;
+	padding: 30px 10px;
+}
+
+
