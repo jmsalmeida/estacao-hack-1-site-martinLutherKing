@@ -70,11 +70,12 @@ section {
 
 /* Historia */
 
-
 .history-right {
 	display: flex;
 	justify-content: flex-end;
+	padding: 100px 0;
 }
+
 
 .history-left {
 	display: flex;
@@ -83,4 +84,9 @@ section {
 .circle-img {
 	width: 200px;
 	height: 200px;
+}
+
+.p-history {
+	padding: 80px 90px 0 90px;	
+	text-align: justify;
 }
