@@ -1,6 +1,11 @@
+/* classes auxiliares */
 *{
 	margin: 0;
 	padding: 0;
+}
+
+section {
+	padding: 50px 0;
 }
 
 .container{
@@ -11,4 +16,71 @@
 
 .center{
     text-align: center
+}
+
+/* header */
+.menu-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-desktop ul {
+	padding-top: 15px;
+	font-size: 16px;
+}
+
+.menu-desktop li {
+	display: inline;
+	padding: 0 10px;
+}
+
+.menu-desktop a {
+	text-decoration: none;
+	color: black;
+}
+
+.logo img{
+	width: 300px;
+}
+
+/* section main */
+
+#main-bg {
+	background-image: url("../img/main-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+}
+
+.overlay-main {
+	width: 100%;
+	height: 700px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.texto-main {
+	position: relative;
+	top: 300px; left: 0;
+	color: white;
+	font-size: 30px;
+	justify-content: center;
+	line-height: 50px;
+}
+
+/* Historia */
+
+
+.history-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.history-left {
+	display: flex;
+}
+
+.circle-img {
+	width: 200px;
+	height: 200px;
 }
